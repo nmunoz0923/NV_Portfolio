@@ -1,0 +1,305 @@
+:root {
+    --pink: #eecfc5;
+    --gold: #AC773C;
+    --purple: #BFB0BE;
+    --gray:#f0f7f8;
+    --mustard-green: #B09F34;
+    --dark-green: #039d69;
+    --green:#6aeeb5;
+    --radius:.02rem;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+li, a, button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration:none;
+    color:black;
+}
+
+header {
+    background-color: var(--pink);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor:pointer;
+}
+
+.nav-links {
+    list-style:none;
+}
+
+.nav-links li {
+    display:inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s
+}
+
+.nav-links li a:hover {
+    color:var(--dark-green);
+}
+
+button {
+    font-family: 'Poppins' , sans-serif;
+    font-size: 16px;
+    padding: 16px 24px;
+    background-color: var(--gold);
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color:white;
+}
+
+button:hover{
+    background-color: var(--dark-green);
+    opacity:75%;
+    color:black;
+}
+
+/******* HERO SECTION *******/
+
+.hero {
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    padding-top: 4rem;
+    background: url(images/leaf-1.png)no-repeat;
+    background-position: right;
+}
+
+.hero h1 {
+    color:var(--gold);
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 4rem;
+    font-family:'Poppins', sans-serif;
+}
+
+.hero h2 {
+    font-weight: 300;
+    font-size: 64px;
+    font-family:'Poppins', sans-serif;
+    padding-bottom: 3rem;
+    text-align:center;
+}
+
+.hero p {
+    margin-bottom: 4rem;
+    text-align:center;
+    font-size: 21px;
+    font-weight: 200;
+    font-family:'Raleway', sans-serif;
+}
+
+.btn-1 {
+    border-radius: 150px;
+    background: linear-gradient(88.92deg, #EECFC5 9.09%, #BFB0BE 58.34%, rgba(172, 119, 60, 0.94) 97.06%);
+    margin-bottom: 6rem;
+}
+
+.hero i {
+    padding-left: 10px;
+}
+
+/******* SERVICES SECTION *******/
+
+.services {
+    background-color: var(--purple);
+    padding: 1rem;
+}
+
+.wrapper {
+    display:flex;
+    flex-flow:column;
+    flex-direction:row;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+.icon {
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 1rem;
+    margin-left: -20px;
+    padding: 1rem 0;
+}
+
+#first {
+    margin-left: 0px;
+}
+
+strong {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.services-1,
+.services-2,
+.services-3 {
+    width: 40%;
+} 
+
+.services-1 p,
+.services-2 p,
+.services-3 p {
+    font-family:'Raleway', sans-serif;
+    font-weight: normal;
+    padding: 2rem 0rem;
+}
+
+/******* MY WORK SECTION *******/
+
+.my-work {
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    padding-top: 8rem;
+}
+
+.my-work h2,
+.my-work p {
+    padding-bottom: 2rem;
+    font-family:'Raleway', sans-serif;
+}
+
+.my-work h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family:'Poppins' , sans-serif;
+}
+
+.proj-1,
+.proj-2 {
+    background-color: var(--mustard-green);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    padding: 4rem 0; 
+}
+
+#ddw-img {
+    padding-left: 6rem;
+}
+
+.proj-1 img, 
+.proj-2 img, 
+.proj-3 img {
+    padding-left: 15rem;
+}
+
+.proj-1 img:hover,
+.proj-2 img:hover,
+.proj-3 img:hover {
+    transform: scale(1.1);
+    transition: 3s;  
+}
+
+.proj-3 {
+    margin-top: 4rem;
+    width: 100%;
+    background-color: var(--mustard-green);
+    background-color: var(--mustard-green);
+    padding:4rem 0;
+    transition:1s;
+}
+
+.my-work a:hover {
+    cursor:pointer;
+}
+
+.twb-case-study img {
+    width: 100%;
+}
+
+.ddw-case-study img {
+    width: 100%;
+}
+
+.coachsara-design img,
+.coachsara-design h1 {
+    margin-top: 5rem;
+    width: 80%;
+    padding-left: 10rem;
+    text-align: center;
+}
+
+/******* CONTACT SECTION *******/
+
+.contact {
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.contact-wrapper {
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.contact img {
+    margin-bottom: 0;
+    height: 500px;
+    width: 300px;
+}
+
+.contact h3 {
+    padding: 8rem 0rem 2rem 7rem;
+    font-family:'Raleway' ,sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.contact p {
+    padding-left: 7rem;
+    padding-bottom: 4rem;
+    font-size: 21px;
+    font-weight: 300;
+    font-family: 'Poppins',sans-serif;
+}
+
+.contact .btn-2 {
+    margin-left: 6.8rem;
+    border-radius: 150px;
+    background: linear-gradient(88.92deg, #EECFC5 9.09%, #BFB0BE 58.34%, rgba(172, 119, 60, 0.94) 97.06%);
+    margin-bottom: 7rem;
+}
+
+/****** FOOTER SECTION ******/
+
+footer {
+    display:flex;
+    flex-flow:row;
+}
+
+.copyright {
+    display:flex;
+    flex-flow:column;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.copy {
+    margin-left: 14rem;
+}
+
+.privacy {
+    margin-left: 14rem;
+}
+
+.terms {
+    margin-left: 14rem;
+}
