@@ -314,6 +314,10 @@ footer {
     flex-flow:row;
 }
 
+.ftr-wrapper {
+    margin-top: 7rem;
+}
+
 .copyright {
     display:flex;
     flex-flow:column;
@@ -405,8 +409,24 @@ h4 {
 }
 
 .contact-me {
-    background: url(../images/leaf-3.png) no-repeat;
-    background-position: left;
-    padding-top: 4rem;
-    height: 27rem;
+    padding-top:8rem;
+    padding-left: 4rem;
+    width: 650px;
+}
+
+.contact-me h3 {
+    font-family:'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
+.details {
+    font-family:'Raleway', serif;
+    font-size: 18px;
+}
+
+form {
+    background-color: #D6D0D6;
+    opacity: 60%;
 }
