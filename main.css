@@ -311,7 +311,7 @@ footer {
     display:flex;
 }
 
-h4, .skill-list, .tools {
+h4 {
     font-family: 'Mulish', sans-serif;
     color: #b39e09;
     font-size: 40px;
@@ -324,6 +324,13 @@ h4, .skill-list, .tools {
     height: 500px;
     border-radius: 10px;
     margin:6rem 8rem;
+}
+
+.skill-list, .tools {
+    font-family: 'Mulish', sans-serif;
+    color: #b39e09;
+    font-size: 40px;
+    padding-top: 4rem;
 }
 
 .all-about-me {
@@ -341,6 +348,12 @@ h4, .skill-list, .tools {
     flex-direction: row wrap;
 }
 
+.skill-list, .tools {
+    padding-left: 15rem;
+}
+
 .list-items {
-    
+    line-height: 1.5;
+    padding-top: 10rem;
+    margin-left: -5rem;
 }
