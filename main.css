@@ -239,6 +239,29 @@ strong {
     text-align: center;
 }
 
+.cta {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    font-size: 16px;
+    /* margin: 40px;  */
+    color:var(--gray);    
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color:white;
+    width: 500px;
+    font-size: 28px;
+    display:inline-block;
+    margin-left: 1rem;
+    padding-right: 100px;
+    float:right;
+    padding-top: 75px;
+    margin-bottom: 24px;
+}
+
 /******* CONTACT SECTION *******/
 
 .contact {
@@ -321,7 +344,7 @@ h4 {
 
 .profile img {
     width: 420px;
-    height: 500px;
+    height: 550px;
     border-radius: 8px;
     margin:6rem 8rem;
 }
@@ -356,4 +379,15 @@ h4 {
     line-height: 1.5;
     padding-top: 10rem;
     margin-left: -5rem;
+    margin-bottom: 7rem;
+}
+
+/* CONTACT PAGE STYLES */
+
+.container {
+    width: 50%;
+    display:inline-block; 
+    float:right;
+    margin-top: 4rem;
+    margin-right: 2rem;
 }
