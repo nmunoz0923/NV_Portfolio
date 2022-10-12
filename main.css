@@ -384,10 +384,19 @@ h4 {
 
 /* CONTACT PAGE STYLES */
 
+.contact-me {
+    display:flex;
+}
+
 .container {
     width: 50%;
     display:inline-block; 
     float:right;
     margin-top: 4rem;
     margin-right: 2rem;
+}
+
+main {
+    background: url(../images/leaf-2.png) no-repeat;
+    background-position: left;
 }
