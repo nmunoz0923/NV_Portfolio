@@ -101,6 +101,7 @@ button:hover{
     margin-bottom: 4rem;
     text-align:center;
     font-size: 21px;
+    line-height: 1.5;
     font-weight: 200;
     font-family:'Raleway', sans-serif;
 }
@@ -302,4 +303,44 @@ footer {
 
 .terms {
     margin-left: 14rem;
+}
+
+/******* ABOUT PAGE STYLES  *******/
+
+.about-me-wrapper {
+    display:flex;
+}
+
+h4, .skill-list, .tools {
+    font-family: 'Mulish', sans-serif;
+    color: #b39e09;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.profile img {
+    width: 420px;
+    height: 500px;
+    border-radius: 10px;
+    margin:6rem 8rem;
+}
+
+.all-about-me {
+    line-height: 1.50;
+    font-weight: 500;
+    font-size: 21px;
+    width: 600px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+
+.skills {
+    display:flex;
+    flex-direction: row wrap;
+}
+
+.list-items {
+    
 }
