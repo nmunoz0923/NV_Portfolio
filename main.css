@@ -426,7 +426,69 @@ h4 {
     font-size: 18px;
 }
 
+.contact-form {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
 form {
-    background-color: #D6D0D6;
-    opacity: 60%;
+    /* background-color: #D6D0D6;
+    opacity: 60%; */
+    width: 50%;
+    max-width:50%;
+    font-weight: 500;
+    font-family:'Raleway', sans-serif;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position:relative
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline:0;
+    border:1px solid #111;
+    border-radius:8px;
+    color:black;
+    background:#d6d0d6;
+    opacity:60%;
+    /* font-size: 21px; */
+}
+
+label {
+    height: 100%;
+    position:absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color:black;
+    cursor:text;
+    transition: 0.2s;
+}
+
+#contact-btn {
+    padding: 10px 0;
+    width: 80%;
+    cursor:pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -36px;
+    font-size: 16px;
+}
+
+.row {
+    display:flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.row .input-group {
+    flex-basis:48%;
 }

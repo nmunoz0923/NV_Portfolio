@@ -12,45 +12,6 @@
 <script src="https://kit.fontawesome.com/26c852d4d3.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <style>
-        body {font-family: 'Raleway', Arial, Helvetica, sans-serif;}
-        * {box-sizing: border-box;}
-        
-        input[type=text], select, textarea {
-          width: 100%;
-          padding: 12px;
-          border: 1px solid #ccc;
-          border-radius: 8px;
-          box-sizing: border-box;
-          margin-top: 6px;
-          margin-bottom: 16px;
-          resize: vertical;
-        }
-        
-        input[type=submit] {
-          background-color: #7A5A76;
-          color: white;
-          padding: 12px 20px;
-          border: none;
-          border-radius: 16px;
-          cursor: pointer;
-          width: 50%;
-        }
-
-        input[type=text] {
-          padding-left: 20px;
-        }
-        
-        input[type=submit]:hover {
-          background-color: #9B526A;
-        }
-        
-        .container {
-          border-radius: 5px;
-          background-color: #ccc;
-          padding: 20px;
-        }
-        </style>
     <title>Contact Page</title>
 </head>
 <body>
@@ -70,33 +31,39 @@
         <div class="contact-me">
             <h3>Got a Project in Mind?</h3>
             <p class="details">Just use this form to give me as much detail as possible, and I'll get back to you as soon as I can.<br><br>
-            Also if you want to get in touch with me you can use this <a href="nv4development@gmail.com">link</a> to email me directly  or contact me on social media.</p>
+            Also if you want to get in touch with me you can email me directly.</p>
         </div>
-        <div class="container">
-            <label for="lname">Your Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Name" required>
-          
-            <form action="/action_page.php">
-              <label for="fname">Your Email address</label>
-              <input type="text" id="fname" name="firstname" placeholder="Email address" required>
-              <label for="subject">Your Project details</label>
-              <textarea id="subject" name="subject" placeholder="Tell me about your project..." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-            </form>
-            <img src="" alt="">
-          </div>
 
-          <!-- <div class="contact-form">
+          <div class="contact-form">
             <form action="https://formspree.io/f/mpznqyyy" method="POST">
-                <label for="" placeholder="Name">Your Name</label>
-                <label for="" placeholder="Email address">Your Email address</label>
-                <label for="" placeholder="Project Details">Your Project Details</label>
-                <label for="" placeholder="Price range">Your Price range</label>
-                <label for="" placeholder="Timeline">Your Timeline</label>
-                <button type="submit">Let's do this<img src="../images/paper-plane.png" alt="paper plane icon"></button>
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" id="name">
+                        <label for="name" required>Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="email">
+                        <label for="email" required>Your Email address</label>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <textarea id="project-details" rows="8"></textarea>
+                    <label for="project-details" required>Your Project Details</label>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" id="price">
+                        <label for="price" required>Your Price range</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="timeline">
+                        <label for="timeline" required>Your Timeline</label>
+                    </div>
+                </div>
+                <button type="submit" id="contact-btn" class="btn-1">Let's do this<img src="../images/paper-plane.png" alt="paper plane icon"></button>
             </form>
-          </div> -->
+          </div>
     </main>
 
     <footer>
