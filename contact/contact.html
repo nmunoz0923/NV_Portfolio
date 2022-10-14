@@ -27,46 +27,51 @@
         </nav>
     </header>
     
-    <main>
+    <section>
         <div class="contact-me">
             <h3>Got a Project in Mind?</h3>
             <p class="details">Just use this form to give me as much detail as possible, and I'll get back to you as soon as I can.<br><br>
-            Also if you want to get in touch with me you can email me directly.</p>
+            Also if you want to get in touch with me you can reach me directly on social media.</p>
+            <div class="socials">
+                <ul>
+                    <li><i class="fa-brands fa-linkedin">
+                        <a href="https://www.linkedin.com/in/natashamunoz/" alt="Linkedin icon"></a></i></li>
+                    <li><i class="fa-brands fa-instagram">
+                        <a href="https://www.instagram.com/nmunoz0923/" alt="Instagram icon"></a></i></li>
+                    <li><i class="fa-brands fa-github">
+                        <a href="https://github.com/nmunoz0923" alt="Github icon">
+                        </a></i></li>
+                </ul>
+            </div>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form action="https://formspree.io/f/mpznqyyy"
+                    method="POST">
+                    <div class="name-group">
+                        Your Name <input type="text" placeholder="Your name" required>
+                    </div>
+                    <div class="mail-group">
+                        Your Email <input type="email" placeholder="Your email" required>
+                    </div>
+                    <div class="mssg">
+                        Your Project Details <textarea placeholder="Project details" cols="30" rows="10" required></textarea>
+                    </div>
+                    <div class="price-group">
+                        Your Price range <input type="price" placeholder="Price range" required>
+                    </div>
+                    <div class="time-group">
+                        Your Timeline <input type="timeline" placeholder="Timeline" required>
+                    </div>
+                    <button type="submit">Let's do this <img src="../images/paper-plane.png" alt="paper plane icon"></button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-          <div class="contact-form">
-            <form action="https://formspree.io/f/mpznqyyy" method="POST">
-                <div class="row">
-                    <div class="input-group">
-                        <input type="text" id="name">
-                        <label for="name" required>Your Name</label>
-                    </div>
-                    <div class="input-group">
-                        <input type="text" id="email">
-                        <label for="email" name="email" required>Your Email address</label>
-                    </div>
-                </div>
-                
-                <div class="input-group">
-                    <textarea id="project-details" rows="8"></textarea>
-                    <label for="project-details" required>Your Project Details</label>
-                </div>
-                <div class="row">
-                    <div class="input-group">
-                        <input type="text" id="price">
-                        <label for="price" required>Your Price range</label>
-                    </div>
-                    <div class="input-group">
-                        <input type="text" id="timeline">
-                        <label for="timeline" required>Your Timeline</label>
-                    </div>
-                </div>
-                <button type="submit" id="contact-btn" class="btn-1">Let's do this<img src="../images/paper-plane.png" alt="paper plane icon"></button>
-            </form>
-          </div>
-    </main>
-
-    <footer>
+    <!-- <footer>
         <div class="ftr-wrapper">
         <div class="copyright">
             <p class="copy">&copy; nv4development. All rights reserved</p>
@@ -74,6 +79,6 @@
             <p class="terms"><strong>Terms & Conditions</strong></p>
         </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
