@@ -202,7 +202,7 @@ strong {
 .proj-1 img, 
 .proj-2 img, 
 .proj-3 img {
-    padding-left: 15rem;
+    padding-left: 10rem;
 }
 
 .proj-1 img:hover,
@@ -245,15 +245,19 @@ strong {
     font-family: 'Raleway', sans-serif;
     line-height: 1;
     font-size: 16px;
-    color:var(--gray);    
+    color:white;   
 }
 
 .here-btn {
     color:rgb(132, 132, 156);
+    font-size: 21px;
+    font-family: var(--font1);
+    transform: all .3s ease-in-out; 
 }
 
 .here-btn:hover {
-    color:white;
+    color:var(--dark-green);
+    text-transform: underline;
 }
 
 .description {
@@ -261,12 +265,13 @@ strong {
     line-height: 1.5;
     font-weight: 400;
     color:white;
-    width: 400px;
+    width: 500px;
     font-size: 28px;
+    margin-right: 100px;
     display:inline-block;
     padding-right: 50px;
     float:right;
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 /******* CONTACT SECTION *******/
@@ -459,10 +464,10 @@ h4 {
 }
 
 .row {
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    min-height: 100vh;
+    display:inline-block;
+    justify-content: right;
+    align-items:right;
+    /* min-height: 100vh; */
 }
 
 .col {
