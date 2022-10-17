@@ -400,11 +400,16 @@ h4 {
 
 /* CONTACT PAGE STYLES */
 
+.contact-page {
+    display:flex;
+    flex-flow:row wrap;
+}
+
 .contact-me {
-    width: 100%;
+    /* width: 100%; */
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
 }
 
 .socials ul {
@@ -430,9 +435,9 @@ h4 {
 }
 
 .container {
-    width: 50%;
-    display:inline-block; 
-    float:right;
+    /* width: 100%; */
+    display:flex; 
+    float: right;
     margin-top: 4rem;
     margin-right: 2rem;
     margin-bottom: 7rem;
@@ -459,49 +464,53 @@ h4 {
 /******* FORM SECTION *******/
 
 .container {
-    min-width: 960px;
+    /* min-width: 100px; */
     margin: auto;
 }
 
 .row {
-    display:inline-block;
+    display:flex;
     justify-content: right;
     align-items:right;
     /* min-height: 100vh; */
+    margin-left: 6rem;
 }
 
 .col {
-    width: 50%;
+    /* width: 100%; */
+    display:flex;
+    flex-flow:row;
 }
 
 section {
-    width: 100%;
+    /* width: 100%; */
     /* background: #2d3436; */
 }
 
 form {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .name-group,
-.email-group,
+.mail-group {
+   flex-flow:row wrap;
+   /* float:left; */
+}
+
+.name-group,
+.mail-group,
 .mssg,
 .price-group,
 .time-group {
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    padding-bottom: 10px;
 }
 
 input, textarea {
-    width: 50%;
+    width: 100%;
     margin-right: 10px;
-    margin-bottom: 10px;
     padding: 12px;
     border-radius: 10px;
     background:var(--purple);
-    /* opacity: 60%; */
     border:none;
     outline:none;
     transition: all .3s ease-in-out;
