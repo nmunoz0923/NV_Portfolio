@@ -406,7 +406,6 @@ h4 {
 }
 
 .contact-me {
-    /* width: 100%; */
     display:flex;
     flex-direction: column;
     justify-content: left;
@@ -424,12 +423,10 @@ h4 {
 .socials i {
     color:#9B526A;
     font-size: 48px;
-    /* padding-bottom: 2rem;*/
     margin-top: 2rem;
 }
 
 .socials i:hover {
-    /* text-decoration: underline; */
     color:#9B526A;
     opacity:40%;
 }
@@ -465,30 +462,22 @@ h4 {
     display:flex;
     justify-content: right;
     align-items:right;
-    /* min-height: 100vh; */
-    /* margin-left: 6rem; */
 }
 
 .col {
-    /* width: 100%; */
     display:flex;
     flex-flow:row;
 }
 
-form {
-    /* width: 100%; */
+.mssg {
+    margin-bottom: 1rem;
 }
 
 .name-group,
 .mail-group,
-.time-group {
-   flex-wrap:wrap;
-   float:left;
-}
-
 .price-group,
 .time-group {
-    width: 50%;
+   float:left;
 }
 
 .mail-group, 
@@ -498,21 +487,24 @@ form {
 
 .name-group,
 .mail-group,
-.mssg,
 .price-group,
 .time-group {
     padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 50%;
 }
 
 input, textarea {
     width: 100%;
     /* margin-right: 10px; */
+    font-family: var(--font1);
+    letter-spacing:1px;
     padding: 12px;
     border-radius: 10px;
     background:var(--purple);
     border:none;
     outline:none;
-    transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 input::placeholder,
