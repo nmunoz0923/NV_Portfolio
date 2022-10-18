@@ -475,19 +475,25 @@ h4 {
     flex-flow:row;
 }
 
-section {
-    /* width: 100%; */
-    /* background: #2d3436; */
-}
-
 form {
     /* width: 100%; */
 }
 
 .name-group,
-.mail-group {
-   flex-flow:row wrap;
-   /* float:left; */
+.mail-group,
+.time-group {
+   flex-wrap:wrap;
+   float:left;
+}
+
+.price-group,
+.time-group {
+    width: 50%;
+}
+
+.mail-group, 
+.time-group {
+    padding-left: 8px;
 }
 
 .name-group,
@@ -500,7 +506,7 @@ form {
 
 input, textarea {
     width: 100%;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     padding: 12px;
     border-radius: 10px;
     background:var(--purple);
@@ -522,4 +528,9 @@ textarea:focus {
 
 textarea {
     width: 100%;
+}
+
+.btn-3 {
+    width: 100%;
+    /* flex-wrap: start; */
 }
