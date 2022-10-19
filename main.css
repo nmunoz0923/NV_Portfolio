@@ -378,7 +378,7 @@ h4 {
     font-size: 21px;
     width: 600px;
     font-family: 'Raleway', sans-serif;
-    margin-top: 8rem;
+    margin-top: 4rem;
     margin-left: 5rem;
 }
 
@@ -559,7 +559,3 @@ textarea {
 }
 
 /******* MEDIA QUERIES *******/
-
-@media (width: 768px){
-
-}
