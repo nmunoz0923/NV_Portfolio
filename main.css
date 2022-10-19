@@ -409,6 +409,16 @@ h4 {
     display:flex;
     flex-direction: column;
     justify-content: left;
+    padding-top:8rem;
+    padding-left: 4rem;
+    width: 700px;
+}
+
+.contact-me h3 {
+    font-family:'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 32px;
 }
 
 .socials ul {
@@ -421,27 +431,14 @@ h4 {
 }
 
 .socials i {
-    color:var(--green);
+    color:#9b526a;
     font-size: 56px;
     margin-top: 2rem;
 }
 
 .socials i:hover {
-    color:#9b526a;
-    /* opacity: 50%; */
-}
-
-.contact-me {
-    padding-top:8rem;
-    padding-left: 4rem;
-    width: 650px;
-}
-
-.contact-me h3 {
-    font-family:'Poppins', sans-serif;
-    font-size: 32px;
-    font-weight: 500;
-    padding-bottom: 32px;
+    
+    color:var(--green);
 }
 
 .details {
@@ -456,9 +453,10 @@ h4 {
     float: right;
     min-width: 100px;
     padding-top: 75px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     /* padding: 75px 60px; */
-    width:650px;
+    width:550px;
+    margin-left: 60px;
 }
 
 .row {
@@ -518,10 +516,6 @@ input, textarea {
     border: 1px solid black;
 }
 
-.btn-3:nth-of-type(1) {
-    margin-top: 2rem;
-}
-
 input::placeholder,
 textarea::placeholder{
     color:#fff;
@@ -530,7 +524,12 @@ textarea::placeholder{
 input:focus,
 textarea:focus {
     background:var(purple);
-    opacity:60%;
+}
+
+input:read-write,
+textarea:read-write {
+    color:black;
+    opacity:100%;
 }
 
 textarea {
@@ -556,4 +555,11 @@ textarea {
 .btn-3:hover {
     background: #9b526a;
     opacity:100%;
+    border:2.5px solid var(--purple);
+}
+
+/******* MEDIA QUERIES *******/
+
+@media (width: 768px){
+
 }
