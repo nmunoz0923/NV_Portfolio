@@ -421,14 +421,14 @@ h4 {
 }
 
 .socials i {
-    color:#9B526A;
-    font-size: 48px;
+    color:var(--green);
+    font-size: 56px;
     margin-top: 2rem;
 }
 
 .socials i:hover {
-    color:#9B526A;
-    opacity:40%;
+    color:#9b526a;
+    /* opacity: 50%; */
 }
 
 .contact-me {
@@ -455,10 +455,14 @@ h4 {
     display:inline-block; 
     float: right;
     min-width: 100px;
-    padding: 75px 64px;
+    padding-top: 75px;
+    padding-left: 40px;
+    /* padding: 75px 60px; */
+    width:650px;
 }
 
 .row {
+    max-width:1100px;
     display:flex;
     justify-content: right;
     align-items:right;
@@ -467,10 +471,13 @@ h4 {
 .col {
     display:flex;
     flex-flow:row;
+    justify-content: end;
 }
 
 .mssg {
     margin-bottom: 1rem;
+    font-weight: 600;
+    font-family: var(--font1);
 }
 
 .name-group,
@@ -482,7 +489,7 @@ h4 {
 
 .mail-group, 
 .time-group {
-    padding-left: 8px;
+    padding-left: 10px;
 }
 
 .name-group,
@@ -492,12 +499,15 @@ h4 {
     padding-bottom: 10px;
     margin-bottom: 10px;
     width: 50%;
+    font-weight: 600;
+    font-family: var(--font1);
 }
 
 input, textarea {
+    margin-top: 8px;
     width: 100%;
-    /* margin-right: 10px; */
     font-family: var(--font1);
+    font-weight: 200;
     letter-spacing:1px;
     padding: 12px;
     border-radius: 10px;
@@ -505,6 +515,11 @@ input, textarea {
     border:none;
     outline:none;
     transition: all .4s ease-in-out;
+    border: 1px solid black;
+}
+
+.btn-3:nth-of-type(1) {
+    margin-top: 2rem;
 }
 
 input::placeholder,
@@ -512,7 +527,7 @@ textarea::placeholder{
     color:#fff;
 }
 
-input:focus, 
+input:focus,
 textarea:focus {
     background:var(purple);
     opacity:60%;
@@ -524,5 +539,21 @@ textarea {
 
 .btn-3 {
     width: 100%;
-    /* flex-wrap: start; */
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 44px;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius:100px;
+}
+
+.btn-3 img {
+    margin-left: 10px;
+    height: 20px;
+}
+
+.btn-3:hover {
+    background: #9b526a;
+    opacity:100%;
 }
