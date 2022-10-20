@@ -403,6 +403,9 @@ h4 {
 .contact-page {
     display:flex;
     flex-flow:row wrap;
+    margin: 0 auto;
+    max-width: 90%;
+    justify-content: space-between;
 }
 
 .contact-me {
@@ -410,8 +413,8 @@ h4 {
     flex-direction: column;
     justify-content: left;
     padding-top:8rem;
-    padding-left: 4rem;
-    width: 700px;
+    /* padding-left: 4rem; */
+    width: 40%;
 }
 
 .contact-me h3 {
@@ -450,13 +453,13 @@ h4 {
 
 .container {
     display:inline-block; 
-    float: right;
-    min-width: 100px;
+    /* float: right; */
+    max-width:1400px;
     padding-top: 75px;
     /* padding-left: 40px; */
     /* padding: 75px 60px; */
-    width:550px;
-    margin-left: 60px;
+    width:50%;
+    /* margin-left: 60px; */
 }
 
 .row {
