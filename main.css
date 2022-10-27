@@ -562,3 +562,74 @@ textarea {
 }
 
 /******* MEDIA QUERIES *******/
+
+
+@media(min-width:768px) {
+    body{
+        width: 100%;
+    }
+    header nav {
+        margin-left: 40px;
+        padding-left:80px;
+    }
+    .hero {
+        position: relative;
+        background-position: 125% 20%;
+    }
+    .hero p {
+        padding: 0 20px;
+    }
+    .my-work {
+        padding-top: 75px;
+    }
+    .proj-1 img,
+    .proj-2 img,
+    .proj-3 img {
+        padding-left: 3rem;
+    }
+
+    .my-work p {
+        padding-top: 50px;
+    }
+
+    /* .contact-wrapper {
+        background: url(../images/leaf-2.png)left no-repeat;
+        background-size: 50%;
+    } */
+    .contact img {
+        display:none;
+    }
+    .contact div {
+        position: relative;
+        /* top: 40px; */
+        background: url(../images/leaf-2.png)left no-repeat;
+        background-size: 50%;
+        background-position: -55% 75%;
+    }
+    /* .contact {
+        background: url(../images/leaf-2.png) no-repeat cover;
+    } */
+    .contact h3,
+    .contact p{
+        padding-left: 8rem;
+    }
+
+    .contact p {
+        padding-right: 2rem;
+    }
+    .contact .btn-2 {
+        margin-left: 8rem;
+        margin-bottom: 1rem;
+    }
+    .copy {
+        margin-left: 2rem;
+    }
+    .copyright {
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:480px) {
+
+}
