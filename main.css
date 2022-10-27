@@ -564,7 +564,7 @@ textarea {
 /******* MEDIA QUERIES *******/
 
 
-@media(min-width:768px) {
+@media(max-width:768px) {
     body{
         width: 100%;
     }
@@ -587,11 +587,9 @@ textarea {
     .proj-3 img {
         padding-left: 3rem;
     }
-
     .my-work p {
         padding-top: 50px;
     }
-
     /* .contact-wrapper {
         background: url(../images/leaf-2.png)left no-repeat;
         background-size: 50%;
@@ -613,7 +611,6 @@ textarea {
     .contact p{
         padding-left: 8rem;
     }
-
     .contact p {
         padding-right: 2rem;
     }
@@ -626,10 +623,39 @@ textarea {
     }
     .copyright {
         display:flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        flex-flow:row wrap;
+        flex-basis:auto;
+        flex-direction:row;
     }
-}
+    /******************* ABOUT ME PAGE ***********************/
+    .about-me-wrapper {
+        display:flex;
+        flex-flow:column;
+        flex-direction:column;
+    }
+    .profile {
+        display:flex;
+        justify-content:center;
+    }
+    .profile img {
+        margin-bottom: 2rem;
+    }
+    .all-about-me {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .skill-list, .tools{
+        padding-left: 4rem;
+    }
+    .list-items {
+        margin-bottom: 0;
+    }
+    .ftr-wrapper {
+        margin-top: 4rem;
+    }
+}   
 
 @media(min-width:480px) {
-
+    
 }
