@@ -318,7 +318,8 @@ strong {
 
 footer {
     display:flex;
-    flex-flow:row;
+    flex-direction:row;
+    justify-content:space-around;
 }
 
 .ftr-wrapper {
@@ -332,9 +333,9 @@ footer {
     justify-content: space-between;
 }
 
-.copy {
+/* .copy {
     margin-left: 14rem;
-}
+} */
 
 .privacy {
     margin-left: 14rem;
@@ -619,15 +620,33 @@ textarea {
         margin-bottom: 1rem;
     }
     .copy {
-        margin-left: 2rem;
+        font-size: 16px;
+        margin: 0;
+    }
+    .privacy {
+        font-size: 14px;
+        margin-left: 0;
+        margin: 0;
+    }
+    .terms {
+        font-size: 14px;
+        margin: 0;
     }
     .copyright {
         display:flex;
-        justify-content: space-around;
-        flex-flow:row wrap;
-        flex-basis:auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:flex-start;
+        gap: 32px;
+        position: absolute;
+        height: 15px;
+        left: 56px;
+        right: 32px;
+        /* flex-flow:row wrap;
         flex-direction:row;
+        justify-content: space-around; */
     }
+
     /******************* ABOUT ME PAGE ***********************/
     .about-me-wrapper {
         display:flex;
