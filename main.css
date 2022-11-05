@@ -550,6 +550,9 @@ textarea {
         margin-right: 8px;
         flex: 300px;
     }
+    .services-1,{
+        padding-right: 8px;
+    }
     .my-work-para {
         display:flex;
         flex-direction:row;
@@ -563,13 +566,40 @@ textarea {
         flex-direction:row;
         justify-content:flex-start;
     }
-    #ddw-img img {
-        padding-left: 180px;
+    .proj-1 img,
+    .proj-2 img,
+    .proj-3 img {
+        height: 300px;
+    }
+    .proj-2 img {
+        /* padding-left: 150px; */
         /* padding-right: 20px; */
+        padding-left: 80px;
+    }
+    #script-2 {
+        padding-left: 4rem;
+    }
+    .description {
+        margin-top: 4rem;
     }
    .contact::before {
     /* background-position: 180px 180px;
     background: url(images/leaf-2.svg) right no-repeat; */
+   }
+   .contact {
+    background-position: -280px 0;
+    height: 500px;
+   }
+   .contact h3 {
+    font-size: 32px;
+   }
+   .contact h3,
+   .contact p {
+    margin-left: 12rem;
+    padding-right: 20px;
+   }
+   .contact .btn-2 {
+    margin-left: 14rem;
    }
 
 /**************ABOUT ME PAGE STYLES*****************/
@@ -633,7 +663,7 @@ h4 {
 .list-items {
     line-height: 1.5;
     padding-top: 10rem;
-    margin-left: -5rem;
+    margin-left: -7rem;
     margin-bottom: 7rem;
 }
 /**************CONTACT PAGE STYLES*****************/
@@ -781,7 +811,7 @@ textarea {
     align-items:center;
     height: 44px;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 21px;
     border-radius:100px;
 }
 
@@ -796,6 +826,10 @@ textarea {
     border:2.5px solid var(--purple);
 }
 .ftr-wrapper {
+    margin-top: 1rem;
+    border-top:3px solid var(--gray);
+}
+#contact-page-ftr {
     margin-top: 17rem;
 }
 .copyright {
@@ -816,16 +850,77 @@ textarea {
  -------------------------------------------------*/
 
 @media(min-width:1200px) {
-    /* CONTACT PAGE STYLES */
+    .hero {
+        background-position: right 0;
+    }
+    .services-1,
+    .services-2,
+    .services-3 {
+        margin-right: 20px;
+    }
+    /* .my-work p {
+        margin-left: 10rem;
+    } */
+    .proj-1 img,
+    .proj-2 img, 
+    .proj-3 img{
+        height: 290px;
+        margin-left: 3rem;
+    }
+    #script-1, 
+    #script-2,
+    #script-3 {
+        width: 480px;
+        font-size: 32px;
+    }
+    .contact {
+        background-position: -120px 0;
+        height: 700px;
+    }
+    .contact h3 {
+        font-size: 48px;
+        margin-left: 22rem;
+    }
+    .contact p{
+        margin-left: 22rem;
+        font-size: 24px;
+    }
+    .contact .btn-2 {
+        margin-left: 25rem;
+        font-size: 24px;
+    }
+/*************** ABOUT ME PAGE STYLES *************/
+
+.profile img {
+    margin-top: 2rem;
+    width: 500px;
+}
+h4 {
+    padding-left: 30rem;
+    font-size: 56px;
+}
+.all-about-me p {
+    font-size: 24px;
+}
+.skill-list {
+    padding-left: 20rem;
+    font-size: 48px;
+}
+.tools {
+    font-size: 48px;
+}
+/**************** CONTACT PAGE STYLES *************/
 
 .contact-page {
     display:flex;
     flex-flow:row wrap;
-    /* margin: 0px auto; */
     max-width: 90%;
     justify-content: space-between;
 }
-
+/* .contact-page::after {
+    background: url(./images/leaf-2.png) left no-repeat;
+    background-position: cover;
+} */
 .contact-me {
     display:flex;
     flex-direction: column;
@@ -853,21 +948,18 @@ textarea {
 }
 .socials i {
     color:#9b526a;
-    font-size: 56px;
+    font-size: 64px;
     margin-top: 2rem;
 }
 .socials i:hover {
     
     color:var(--green);
 }
-
 .details {
     font-family:'Raleway', serif;
-    font-size: 18px;
+    font-size: 21px;
 }
-
 /******* FORM SECTION *******/
-
 .container {
     display:inline-block; 
     /* float: right; */
@@ -878,7 +970,6 @@ textarea {
     width:50%;
     /* margin-left: 60px; */
 }
-
 .row {
     max-width:1100px;
     display:flex;
@@ -963,30 +1054,71 @@ textarea {
     align-items:center;
     height: 44px;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 21px;
     border-radius:100px;
+    margin-top: 10rem;
 }
-
+.btn-3 p {
+    padding-right: 40px;
+}
 .btn-3 img {
-    margin-left: 10px;
+    display:none;
+    /* margin-right: 40px; */
     height: 20px;
+    height: 24px;
 }
-
 .btn-3:hover {
     background: #9b526a;
     opacity:100%;
     border:2.5px solid var(--purple);
 }
 .ftr-wrapper {
-    margin-top: 10rem;
+    margin-top: 0rem;
+    border-top:3px solid var(--gray);
+}
+#contact-page-ftr {
+    margin-top: 6rem;
 }
 }
 
+/*------------------------------------------------- 
+        ******* LARGER DESKTOP MEDIA QUERY   *******
+ -------------------------------------------------*/
+
 @media(min-width:1440px) {
+    .btn-1 {
+        font-size: 21px;
+    }
+    .proj-1 img,
+    .proj-2 img, 
+    .proj-3 img{
+        height: 350px;
+        margin-left: 6rem;
+    }
+    #script-1,
+    #script-2,
+    #script-3 {
+        padding-top: 2rem;
+        margin-left: 8rem;
+    }
     .ftr-wrapper {
-        margin-top: 7rem;
+        margin-top: 0rem;
+    }
+    h4 {
+        padding-left: 35rem;
+        font-size: 56px;
+    }
+    .all-about-me P {
+        margin-top: 2rem;
     }
     .contact-me h3 {
         font-size: 48px;
+    }
+
+    .btn-3 {
+        font-size: 24px;
+    }
+    #contact-page-ftr {
+        margin-top: 3rem;
     }
 }
