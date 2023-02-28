@@ -109,10 +109,10 @@ button:hover{
     margin-bottom: 4rem;
     text-align:center;
     font-size: 1.313em;
-    line-height: 1;
+    line-height: 1.2;
     font-weight: 300;
     font-family:var(--font1);
-    padding: 0 8px;
+    padding: 0 72px;
 }
 
 .btn-1 {
