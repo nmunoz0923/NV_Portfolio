@@ -85,7 +85,7 @@ button:hover{
     align-items: center;
     padding-top: 2rem;
     background: url(images/leaf-1.png) center no-repeat;
-    background-position: 18rem 0px;
+    background-position: 20rem 0px;
 }
 
 .hero h1 {
@@ -112,7 +112,7 @@ button:hover{
     line-height: 1.2;
     font-weight: 300;
     font-family:var(--font1);
-    padding: 0 72px;
+    padding: 0 40px;
 }
 
 .btn-1 {
