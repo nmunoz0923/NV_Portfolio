@@ -234,9 +234,9 @@ strong {
 }
 
 .here-btn {
-    color:rgb(132, 132, 156);
+    color:#0D213F;
     font-size: 21px;
-    font-family: #0D213F;
+    font-family: var(font1);
     transform: all .3s ease-in-out; 
 }
 
