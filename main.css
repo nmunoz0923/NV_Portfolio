@@ -236,7 +236,7 @@ strong {
 .here-btn {
     color:rgb(132, 132, 156);
     font-size: 21px;
-    font-family: var(--font1);
+    font-family: #0D213F;
     transform: all .3s ease-in-out; 
 }
 
@@ -405,7 +405,7 @@ h4 {
 }
 
 .socials i:hover {
-    color:var(--green);
+    color:#0D213F;
 }
 
 .details {
