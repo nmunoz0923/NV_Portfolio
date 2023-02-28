@@ -539,6 +539,9 @@ textarea {
     .hero h2 {
         font-size: 48px;
     }
+    .hero p {
+        padding: 0 96px;
+    }
     .wrapper {
         display:flex;
         flex-direction: row;
