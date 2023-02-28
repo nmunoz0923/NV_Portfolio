@@ -405,7 +405,7 @@ h4 {
 }
 
 .socials i:hover {
-    color:#0D213F;
+    color: var(--dark-green);
 }
 
 .details {
@@ -709,8 +709,7 @@ h4 {
 }
 
 .socials i:hover {
-    
-    color:var(--green);
+    color:var(--dark-green);
 }
 
 .details {
@@ -952,8 +951,7 @@ h4 {
     margin-top: 2rem;
 }
 .socials i:hover {
-    
-    color:var(--green);
+    color:var(--dark-green);
 }
 .details {
     font-family:'Raleway', serif;
@@ -1121,4 +1119,7 @@ textarea {
     #contact-page-ftr {
         margin-top: 3rem;
     }
+    .socials i:hover {
+    color:var(--dark-green);
+}
 }
