@@ -567,6 +567,12 @@ textarea {
         flex-direction:row;
         justify-content:flex-start;
     }
+    #cta-btn-1 {
+        margin-left: 8.5rem;
+        margin-top: 20rem;
+        margin-right: -20rem;
+        color: #fff;
+    }
     .proj-1,
     .proj-2,
     .proj-3 {
