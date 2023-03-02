@@ -171,7 +171,7 @@ strong {
     font-weight: normal;
 }
 
-/*************** SERVICES SECTION **************/
+/*************** WORK SECTION **************/
 
 .my-work {
     display:flex;
@@ -193,6 +193,12 @@ strong {
     font-size: 40px;
     font-weight: 500;
     font-family:var(--font2);
+}
+
+#cta-btn-1 {
+    margin-left: 5.5rem;
+    padding-bottom: 12px;
+    color: #fff;
 }
 
 .proj-1, 
