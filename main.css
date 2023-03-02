@@ -342,7 +342,7 @@ h4 {
 .profile img {
     /* width: 420px; */
     /* height: 550px; */
-    border-radius: 8px;
+    border-radius: 1.5rem
     margin:4rem 0rem;
     padding: 0 10px;
 }
