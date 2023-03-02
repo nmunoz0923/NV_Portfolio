@@ -9,6 +9,7 @@
     --radius:.02rem;
     --font1:'Raleway', sans-serif;
     --font2:'Poppins', sans-serif;
+    --forest-green: #00452B;
 }
 
 * {
@@ -198,7 +199,7 @@ strong {
 #cta-btn-1 {
     margin-left: 5.5rem;
     padding-bottom: 12px;
-    color: #fff;
+    color: #00452B;
 }
 
 .proj-1, 
@@ -570,8 +571,9 @@ textarea {
     #cta-btn-1 {
         margin-left: 8.5rem;
         margin-top: 20rem;
-        margin-right: -20rem;
-        color: #fff;
+        margin-right: -25rem;
+        color: #00452B;
+        width:50%
     }
     .proj-1,
     .proj-2,
@@ -859,6 +861,15 @@ textarea {
  }
 }
 
+@media(min-width:1024px) {
+#cta-btn-1 {
+    margin-left: 8.5rem;
+    margin-top: 20rem;
+    margin-right: -32rem;
+    color: #00452B;
+    width: 30%;
+    }
+}
 /*------------------------------------------------- 
         ******* DESKTOP MEDIA QUERY STYLES  *******
  -------------------------------------------------*/
