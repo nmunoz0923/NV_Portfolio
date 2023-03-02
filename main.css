@@ -875,6 +875,9 @@ textarea {
     /* .my-work p {
         margin-left: 10rem;
     } */
+    #cta-btn-1 {
+        display: none;
+    }
     .proj-1 img,
     .proj-2 img, 
     .proj-3 img{
