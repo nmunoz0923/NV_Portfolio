@@ -869,6 +869,9 @@ textarea {
     color: #00452B;
     width: 30%;
     }
+.about-me-wrapper {
+    display: flex;
+    justify-content: space-around;
 }
 /*------------------------------------------------- 
         ******* DESKTOP MEDIA QUERY STYLES  *******
