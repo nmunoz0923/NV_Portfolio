@@ -628,7 +628,7 @@ textarea {
 }
 .about-me-wrapper {
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 h4 {
     font-family: 'Mulish', sans-serif;
