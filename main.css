@@ -118,7 +118,7 @@ button:hover{
 
 .btn-1 {
     border-radius: 150px;
-    background: linear-gradient(88.92deg, #EECFC5 9.09%, #BFB0BE 58.34%, rgba(172, 119, 60, 0.94) 97.06%);
+    background: linear-gradient(48.92deg, #EECFC5 9.09%, #BFB0BE 58.34%, rgba(172, 119, 60, 0.94) 97.06%);
     margin-bottom: 2rem;
 }
 
@@ -241,15 +241,15 @@ strong {
 }
 
 .here-btn {
-    color:#00452B;
-    font-size: 21px;
+    color:#fff;
+    font-size: 18px;
     font-family: var(font1);
-    transform: all .3s ease-in-out; 
+    transform: all .3s ease-in-out;
+    text-transform: uppercase;
 }
 
 .here-btn:hover {
-    color:var(--dark-green);
-    text-transform: underline;
+    color:var(--forest-green);
 }
 
 .description {
@@ -296,7 +296,7 @@ strong {
 .contact .btn-2 {
     margin-left: 2rem;
     border-radius: 150px;
-    background: linear-gradient(88.92deg, #EECFC5 9.09%, #BFB0BE 58.34%, rgba(172, 119, 60, 0.94) 97.06%);
+    background: linear-gradient(48.92deg, #EECFC5 9.09%, #BFB0BE 58.34%, rgba(172, 119, 60, 0.94) 97.06%);
     margin-bottom: 4rem;
 }
 
@@ -511,6 +511,7 @@ textarea {
     border-radius:100px;
     margin-top: 2rem;
     padding-left: 110px;
+    background: linear-gradient(48.92deg, #EECFC5 9.09%, #BFB0BE 58.34%, rgba(172, 119, 60, 0.94) 97.06%);
 }
 
 .btn-3 p {
