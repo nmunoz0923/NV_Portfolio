@@ -837,11 +837,12 @@ textarea {
     height: 20px;
 }
 
-.btn-3:hover {
+/* .btn-3:hover {
     background: #9b526a;
     opacity:100%;
     border:2.5px solid var(--purple);
-}
+} */
+    
 .ftr-wrapper {
     margin-top: 1rem;
     border-top:3px solid var(--gray);
@@ -1098,11 +1099,11 @@ textarea {
     height: 20px;
     height: 24px;
 }
-.btn-3:hover {
+/* .btn-3:hover {
     background: #9b526a;
     opacity:100%;
     border:2.5px solid var(--purple);
-}
+} */
 .ftr-wrapper {
     margin-top: 0rem;
     border-top:3px solid var(--gray);
