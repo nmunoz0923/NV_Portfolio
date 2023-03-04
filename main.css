@@ -397,6 +397,7 @@ h4 {
 
 .socials ul {
     list-style:none;
+    padding-left:3.5rem;
 }
 
 .socials li {
@@ -429,7 +430,7 @@ h4 {
     /* width:50%; */
     max-width:1400px;
     padding-top: 48px;
-    padding-left: 10px;
+    padding-left: 2rem;
     margin-bottom: 4rem;
 }
 
