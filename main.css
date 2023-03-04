@@ -525,11 +525,11 @@ textarea {
     width: 30px;
 }
 
-.btn-3:hover {
+/* .btn-3:hover {
     background: #9b526a;
     opacity:100%;
     border:2.5px solid var(--purple);
-}
+} */
 
 /*------------------------------------------------- 
         ******* TABLET MEDIA QUERY STYLES  *******
