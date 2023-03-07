@@ -524,6 +524,10 @@ textarea {
     color:black;
 }
 
+.fa-paper-plane {
+    padding-left:24px;
+}
+
 /* .btn-3:hover {
     background: #9b526a;
     opacity:100%;
