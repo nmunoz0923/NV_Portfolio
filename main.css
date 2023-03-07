@@ -520,10 +520,8 @@ textarea {
     align-content: center;
 }
 
-.btn-3 img {
-    margin-left: 10px;
-    height: 30px;
-    width: 30px;
+.btn-3 i:hover {
+    color:black;
 }
 
 /* .btn-3:hover {
@@ -735,6 +733,11 @@ h4 {
     font-family:'Raleway', serif;
     font-size: 18px;
 }
+    
+.btn-3 i:hover {
+    color:black;
+}
+    
 /****************** FORM SECTION *******************/
 
 .container {
@@ -833,9 +836,8 @@ textarea {
     border-radius:100px;
 }
 
-.btn-3 img {
-    margin-left: 10px;
-    height: 20px;
+.btn-3 i:hover {
+    color:black;
 }
 
 /* .btn-3:hover {
@@ -1094,17 +1096,11 @@ textarea {
 .btn-3 p {
     padding-right: 40px;
 }
-.btn-3 img {
-    display:none;
-    /* margin-right: 40px; */
-    height: 20px;
-    height: 24px;
+    
+.btn-3 i:hover {
+    color:black;
 }
-/* .btn-3:hover {
-    background: #9b526a;
-    opacity:100%;
-    border:2.5px solid var(--purple);
-} */
+    
 .ftr-wrapper {
     margin-top: 0rem;
     border-top:3px solid var(--gray);
