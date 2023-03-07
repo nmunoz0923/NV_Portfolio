@@ -551,7 +551,7 @@ textarea {
         font-size: 48px;
     }
     .hero p {
-        padding: 0 96px;
+        padding: 0 184px;
     }
     .wrapper {
         display:flex;
@@ -888,16 +888,13 @@ textarea {
 
 @media(min-width:1200px) {
     .hero {
-        background-position: right 0;
+        background-position: 1040px 0;
     }
     .services-1,
     .services-2,
     .services-3 {
         margin-right: 20px;
     }
-    /* .my-work p {
-        margin-left: 10rem;
-    } */
     #cta-btn-1 {
         display: none;
     }
@@ -1116,6 +1113,9 @@ textarea {
  -------------------------------------------------*/
 
 @media(min-width:1440px) {
+    .hero {
+        background-position: 1240px 0;
+    }
     .btn-1 {
         font-size: 21px;
     }
