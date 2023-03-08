@@ -188,6 +188,8 @@ strong {
     padding-bottom: 2rem;
     font-family:var(--font1);
     margin: 2rem 16px;
+    font-size:1.313em;
+    text-align:center;
 }
 
 .my-work h2 {
