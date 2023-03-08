@@ -187,6 +187,7 @@ strong {
 .my-work p {
     padding-bottom: 2rem;
     font-family:var(--font1);
+    margin: 2rem 16px;
 }
 
 .my-work h2 {
@@ -259,7 +260,6 @@ strong {
     color:white;
     width: 22rem;
     font-size: 1.75rem;
-    margin: 2rem 16px;
 }
 
 /***************** CONTACT FOOTER  ****************/
