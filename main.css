@@ -268,7 +268,7 @@ strong {
 .contact {
     display:flex;
     flex-flow: row wrap;
-    background: url(images/leaf-2.svg) left no-repeat;
+    background: url(images/leaf-2-min.png) left no-repeat;
     background-position: -425px 0px;
 }
 
