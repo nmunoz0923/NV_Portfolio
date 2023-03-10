@@ -155,10 +155,6 @@ button:hover{
     width: 36px;
 }
 
-#first, #second, #third {
-    /* margin-left: 8rem; */
-}
-
 strong {
     font-weight: 500;
     font-family: var(--font2);
@@ -201,7 +197,16 @@ strong {
 
 #cta-btn-1 {
     padding-bottom: 12px;
-    color: #00452B;
+    padding-top: 12px;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#cta-btn-1:hover {
+    color:var(--forest-green);
+    border:1.5px solid var(--forest-green);
+    transform: all .3s ease-in-out;
+    cursor:pointer;
 }
 
 .proj-1, 
@@ -212,17 +217,6 @@ strong {
     padding: 3rem 0px;
     width: 100%;
 }
-
-.proj-1 img,
-.proj-2 img,
-.proj-3 img {
-    height: 200px;
-    /* margin-left: 1rem; */
-}
-
-/* .description {
-    margin: 1rem 2rem;
-} */
 
 .proj-1 img:hover,
 .proj-2 img:hover,
@@ -240,14 +234,6 @@ strong {
     line-height: 1;
     font-size: 16px;
     color:white;   
-}
-
-.here-btn {
-    color:#fff;
-    font-size: 18px;
-    font-family: var(font1);
-    transform: all .3s ease-in-out;
-    text-transform: uppercase;
 }
 
 .here-btn:hover {
@@ -321,12 +307,6 @@ footer {
         ******* ABOUT ME PAGE STYLES  *******
  -------------------------------------------------*/
 
-.about-me-page {
-    /* display:flex;
-    flex-direction:column;
-    flex-flow:center; */
-}
-
 h4 {
     font-family: 'Mulish', sans-serif;
     color: #b39e09;
@@ -335,13 +315,8 @@ h4 {
     padding-top: 4rem;
 }
 
-.profile {
-    /* width: 40%; */
-}
 
 .profile img {
-    /* width: 420px; */
-    /* height: 550px; */
     border-radius: 1.5rem;
     margin:4rem 0rem;
     padding: 0 10px;
@@ -366,10 +341,6 @@ h4 {
     display:flex;
     justify-content: center;
     flex-direction: row wrap;
-}
-
-.skill-list, .tools {
-    /* padding-left: 15rem; */
 }
 
 .list-items {
@@ -528,101 +499,27 @@ textarea {
     padding-left:24px;
 }
 
-/* .btn-3:hover {
-    background: #9b526a;
-    opacity:100%;
-    border:2.5px solid var(--purple);
-} */
 
 /*------------------------------------------------- 
         ******* TABLET MEDIA QUERY STYLES  *******
  -------------------------------------------------*/
 
-@media(min-width:768px) {
+@media(min-width:768px){
+    /* BG IMG */
     .hero {
-        background-position: 56rem 0px;
+        background-position: 700px 0px;
     }
-    .hero h1 {
-        padding-top: 3rem;
-        font-size: 40px;
-        padding-bottom: 4rem;
+    /* MY WORK */
+    .my-work .my-work-para {
+        font-size: 1.875em;
     }
-    .hero h2 {
-        font-size: 48px;
-    }
-    .hero p {
-        padding: 0 96px;
+    /* PROJECT SECTION */
+    .proj-1, .proj-2, .proj-3 {
+        width: 768px;
     }
     .wrapper {
-        display:flex;
-        flex-direction: row;
+        width: 640px;
     }
-    .services-1 {
-        flex:300px;
-    }
-    .services-2, .services-3 {
-        margin-right: 8px;
-        flex: 300px;
-    }
-    .services-1,{
-        padding-right: 8px;
-    }
-    .my-work-para {
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-start;
-    }
-    #cta-btn-1 {
-        margin-left: 8.5rem;
-        margin-top: 20rem;
-        margin-right: -25rem;
-        color: #00452B;
-        width:50%
-    }
-    .proj-1,
-    .proj-2,
-    .proj-3 {
-        /* padding-right: 550px; */
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-start;
-    }
-    .proj-1 img,
-    .proj-2 img,
-    .proj-3 img {
-        height: 300px;
-    }
-    .proj-2 img {
-        /* padding-left: 150px; */
-        /* padding-right: 20px; */
-        padding-left: 80px;
-    }
-    #script-2 {
-        padding-left: 4rem;
-    }
-    .description {
-        margin-top: 4rem;
-    }
-   .contact::before {
-    /* background-position: 180px 180px;
-    background: url(images/leaf-2.svg) right no-repeat; */
-   }
-   .contact {
-    background-position: -280px 0;
-    height: 500px;
-   }
-   .contact h3 {
-    font-size: 32px;
-   }
-   .contact h3,
-   .contact p {
-    margin-left: 12rem;
-    padding-right: 20px;
-   }
-   .contact .btn-2 {
-    margin-left: 14rem;
-   }
-
 /**************ABOUT ME PAGE STYLES*****************/
 
 .about-me-page {
@@ -843,12 +740,6 @@ textarea {
 .btn-3 i:hover {
     color:black;
 }
-
-/* .btn-3:hover {
-    background: #9b526a;
-    opacity:100%;
-    border:2.5px solid var(--purple);
-} */
     
 .ftr-wrapper {
     margin-top: 1rem;
@@ -867,20 +758,30 @@ textarea {
     height: 15px;
     left: 56px;
     right: 32px;
- }
+}
 }
 
 @media(min-width:1024px) {
-#cta-btn-1 {
-    margin-left: 8.5rem;
-    margin-top: 20rem;
-    margin-right: -32rem;
-    color: #00452B;
-    width: 30%;
+    .hero {
+        background-position: 960px 0;
     }
-.about-me-wrapper {
-    display: flex;
-    justify-content: space-around;
+    .wrapper {
+        width: 100%;
+    }
+    /* MY WORK */
+    .my-work .my-work-para {
+        font-size: 1.875em;
+    }
+    /* PROJECT SECTION */
+    .proj-1, .proj-2, .proj-3 {
+        width: 1024px;
+}
+.proj-1 img,
+    .proj-2 img, 
+    .proj-3 img{
+        width:50%;
+        margin-left: 16rem;
+    }
 }
 /*------------------------------------------------- 
         ******* DESKTOP MEDIA QUERY STYLES  *******
@@ -888,28 +789,34 @@ textarea {
 
 @media(min-width:1200px) {
     .hero {
-        background-position: 1040px 0;
+        background-position: 1240px 0;
     }
-    .services-1,
-    .services-2,
-    .services-3 {
-        margin-right: 20px;
+    .services-2 {
+        margin-right: 2rem;
     }
-    #cta-btn-1 {
-        display: none;
+    /* MY WORK */
+    .my-work .my-work-para {
+        font-size: 1.875em;
+    }
+    /* PROJECT SECTION */
+    .proj-1, .proj-2, .proj-3 {
+        width: 1440px;
+    }
+    .wrapper {
+        display:flex;
+        width: 1400px;
     }
     .proj-1 img,
     .proj-2 img, 
     .proj-3 img{
-        height: 290px;
-        margin-left: 3rem;
+        width:50%;
+        margin-left: 22rem;
     }
-    #script-1, 
-    #script-2,
-    #script-3 {
-        width: 480px;
-        font-size: 32px;
+    #cta-btn-1 {
+        max-width: 500px;
+        margin-left: 28rem;
     }
+
     .contact {
         background-position: -120px 0;
         height: 700px;
@@ -923,8 +830,8 @@ textarea {
         font-size: 24px;
     }
     .contact .btn-2 {
-        margin-left: 25rem;
-        font-size: 24px;
+        margin-left: 27rem;
+        font-size: 25px;
     }
 /*************** ABOUT ME PAGE STYLES *************/
 
@@ -954,10 +861,7 @@ h4 {
     max-width: 90%;
     justify-content: space-between;
 }
-/* .contact-page::after {
-    background: url(./images/leaf-2.png) left no-repeat;
-    background-position: cover;
-} */
+
 .contact-me {
     display:flex;
     flex-direction: column;
@@ -998,13 +902,9 @@ h4 {
 /******* FORM SECTION *******/
 .container {
     display:inline-block; 
-    /* float: right; */
     max-width:1400px;
     padding-top: 75px;
-    /* padding-left: 40px; */
-    /* padding: 75px 60px; */
     width:50%;
-    /* margin-left: 60px; */
 }
 .row {
     max-width:1100px;
@@ -1107,51 +1007,23 @@ textarea {
     margin-top: 6rem;
 }
 }
-
-/*------------------------------------------------- 
-        ******* LARGER DESKTOP MEDIA QUERY   *******
- -------------------------------------------------*/
-
-@media(min-width:1440px) {
+@media(min-width:1700px) {
     .hero {
-        background-position: 1240px 0;
+        background-position: 86rem 0px;
     }
-    .btn-1 {
-        font-size: 21px;
+    .services {
+        padding-left: 8rem;
     }
-    .proj-1 img,
+    .proj-1, .proj-2, .proj-3 {
+        width: 1700px;
+}
+.proj-1 img,
     .proj-2 img, 
     .proj-3 img{
-        height: 350px;
-        margin-left: 6rem;
+        width:40%;
+        margin-left: 32rem;
     }
-    #script-1,
-    #script-2,
-    #script-3 {
-        padding-top: 2rem;
-        margin-left: 8rem;
+    #cta-btn-1 {
+        margin-left: 38rem;
     }
-    .ftr-wrapper {
-        margin-top: 0rem;
-    }
-    h4 {
-        padding-left: 35rem;
-        font-size: 56px;
-    }
-    .all-about-me P {
-        margin-top: 2rem;
-    }
-    .contact-me h3 {
-        font-size: 48px;
-    }
-
-    .btn-3 {
-        font-size: 24px;
-    }
-    #contact-page-ftr {
-        margin-top: 3rem;
-    }
-    .socials i:hover {
-    color:var(--dark-green);
-}
 }
