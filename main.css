@@ -511,7 +511,7 @@ textarea {
     }
     /* MY WORK */
     .my-work .my-work-para {
-        font-size: 1.875em;
+        font-size: 1.413em;
     }
     /* PROJECT SECTION */
     .proj-1, .proj-2, .proj-3 {
@@ -519,6 +519,15 @@ textarea {
     }
     .wrapper {
         width: 640px;
+    }
+    .my-work img {
+        width:75%;
+        margin-left: 7rem;
+    }
+    #cta-btn-1 {
+        width: 80%;
+        margin-left: 5rem;
+        font-size: 24px;
     }
 /**************ABOUT ME PAGE STYLES*****************/
 
@@ -796,7 +805,7 @@ textarea {
     }
     /* MY WORK */
     .my-work .my-work-para {
-        font-size: 1.875em;
+        font-size: 1.513em;
     }
     /* PROJECT SECTION */
     .proj-1, .proj-2, .proj-3 {
@@ -1015,7 +1024,7 @@ textarea {
         padding-left: 8rem;
     }
     .proj-1, .proj-2, .proj-3 {
-        width: 1700px;
+        width: 1710px;
 }
 .proj-1 img,
     .proj-2 img, 
