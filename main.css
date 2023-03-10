@@ -196,10 +196,12 @@ strong {
 }
 
 #cta-btn-1 {
-    padding-bottom: 12px;
+    padding-bottom: 21px;
     padding-top: 12px;
     color: #fff;
     border: 2px solid #fff;
+    width: 70%;
+    margin-left: 3rem;
 }
 
 #cta-btn-1:hover {
