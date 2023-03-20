@@ -69,13 +69,13 @@ button {
     border-radius:10px;
     cursor:pointer;
     transition: all 0.3s ease 0s;
-    color:white;
+    color:black;
 }
 
 button:hover{
     background-color: var(--dark-green);
     opacity:75%;
-    color:black;
+    color:white;
 }
 
 /********************* HERO SECTION *********************/
