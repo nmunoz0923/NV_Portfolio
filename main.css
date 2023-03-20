@@ -75,7 +75,7 @@ button {
 button:hover{
     background-color: var(--dark-green);
     opacity:75%;
-    color:white;
+    color:#003823;
 }
 
 /********************* HERO SECTION *********************/
@@ -91,15 +91,15 @@ button:hover{
 
 .hero h1 {
     color:var(--gold);
-    font-weight: 500;
-    font-size: 28px;
+    font-weight: 400;
+    font-size: 32px;
     padding-bottom: 2rem;
     font-family:var(--font2);
 }
 
 .hero h2 {
-    font-weight: 300;
-    font-size: 32px;
+    font-weight: 400;
+    font-size: 40px;
     line-height: 1.25;
     font-family: var(--font2);
     padding-bottom: 4rem;
