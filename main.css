@@ -38,12 +38,27 @@ header {
     padding: 30px 5%;
 }
 
-.logo {
+.headroom {
+    width: 95%;
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1; */
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#logo {
     cursor:pointer;
 }
 
 .nav-links {
-    list-style:none;
+    list-style: none;
     margin-left: 6rem;
 }
 

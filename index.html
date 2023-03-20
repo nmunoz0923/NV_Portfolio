@@ -15,15 +15,32 @@
 <body>
     
     <header>
-        <a href="index.html" id="logo"><img src="./images/nv_logo-min.png" alt="logo"></a>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#logo">Home</a></li>
-                <li><a href="about-me/about.html">About Me</a></li>
-                <li><a href="contact/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- <a href="#" class="cta"><button>Let's Get In Touch</button></a> -->
+        <div class="headroom">
+            <div class="content-wrapper">
+                <figure>
+                    <a href="index.html" id="logo">
+                        <img src="./images/nv_logo-min.png" alt="logo">
+                    </a>
+                </figure>
+                <!-- Investigate how to toggle menu open and close -->
+                <button id="nav-toggle" aria-expanded="false">
+                    <span class="open">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                    <span class="close">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                </button>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#logo">Home</a></li>
+                        <li><a href="about-me/about.html">About Me</a></li>
+                        <li><a href="contact/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- <a href="#" class="cta"><button>Let's Get In Touch</button></a> -->
+            </div>
+        </div>
     </header>
 
 <main>
