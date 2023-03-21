@@ -22,22 +22,22 @@
                         <img src="./images/nv_logo-min.png" alt="logo">
                     </a>
                 </figure>
-                <!-- Investigate how to toggle menu open and close -->
-                <button id="nav-toggle" aria-expanded="false">
-                    <span class="open">
-                        <i class="fa-solid fa-bars"></i>
-                    </span>
-                    <span class="close">
-                        <i class="fa-solid fa-bars"></i>
-                    </span>
-                </button>
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="#logo">Home</a></li>
-                        <li><a href="about-me/about.html">About Me</a></li>
-                        <li><a href="contact/contact.html">Contact</a></li>
+                <nav id="top-nav">
+                    <ul class="nav-links show">
+                        <li>
+                            <a href="#logo">Home</a>
+                        </li>
+                        <li>
+                            <a href="about-me/about.html">About Me</a>
+                        </li>
+                        <li>
+                            <a href="contact/contact.html">Contact</a>
+                        </li>
                     </ul>
                 </nav>
+                <button class="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
                 <!-- <a href="#" class="cta"><button>Let's Get In Touch</button></a> -->
             </div>
         </div>
@@ -95,24 +95,26 @@
     <section class="contact">
         <div class="contact-wrapper">
             <div>
-            <h3>I'm currently available for freelance <br> work.</h3>
-            <p>If you’re looking for a designer and developer that likes to get stuff done, let me know.</p>
-            <a href="contact/contact.html"><button class="btn-2">Got a project in mind? Let's talk!</button></a>
-        </div>
+                <h3>I'm currently available for freelance <br> work.</h3>
+                <p>If you’re looking for a designer and developer that likes to get stuff done, let me know.</p>
+                <a href="contact/contact.html"><button class="btn-2">Got a project in mind? Let's talk!</button></a>
+            </div>
         </div>
     </section>
 </main>
     <footer>
         <div class="ftr-wrapper">
-        <div class="copyright">
-            <div class="copy">&copy; nvdigitalcreations. All rights reserved</div>
-            <div class="privacy"><strong class="">Privacy Policy</strong>
+            <div class="copyright">
+                <div class="copy">&copy; nvdigitalcreations. All rights reserved</div>
+                <div class="privacy"><strong class="">Privacy Policy</strong>
+                </div>
+                <div class="terms"><strong>Terms & Conditions</strong>
+                </div>
             </div>
-            <div class="terms"><strong>Terms & Conditions</strong>
-            </div>
-        </div>
         </div>
     </footer>
-    </div>
+
+    <script src="main.js"></script>
+
 </body>
 </html>
