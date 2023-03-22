@@ -1,8 +1,8 @@
 const dropdownButton = document.querySelector('.nav-toggle');
-const navLinksMenu = document.querySelector('.nav-links');
+const navItemMenu = document.querySelector('.nav-items');
 
 const toggleDropdown = function () {
-    navLinksMenu.classList.toggle('show');
+    navItemMenu.classList.toggle('active');
 }
 
 dropdownButton.addEventListener('click', function(e) {
@@ -11,7 +11,7 @@ dropdownButton.addEventListener('click', function(e) {
 });
 
 document.documentElement.addEventListener('click', function () {
-    if (navLinksMenu.classList.contains('show')) {
+    if (navItemMenu.classList.contains('active')) {
         toggleDropdown();
     }
 });
