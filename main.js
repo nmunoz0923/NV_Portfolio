@@ -1,17 +1,12 @@
-const dropdownButton = document.querySelector('.nav-toggle');
-const navItemMenu = document.querySelector('.nav-items');
+const navToggle = document.querySelector('.nav-toggle');
+const navMenu = document.querySelector('.nav-menu');
 
-const toggleDropdown = function () {
-    navItemMenu.classList.toggle('active');
-}
+navToggle.addEventListener('click', () => {
+    navToggle.classList.toggle('active');
+    navMenu.classList.toggle('active');
+})
 
-dropdownButton.addEventListener('click', function(e) {
-    e.stopPropagation();
-    toggleDropdown();
-});
-
-document.documentElement.addEventListener('click', function () {
-    if (navItemMenu.classList.contains('active')) {
-        toggleDropdown();
-    }
-});
+document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+    navToggle.classList.remove('active');
+    navMenu.classList.remove('active');
+}))
